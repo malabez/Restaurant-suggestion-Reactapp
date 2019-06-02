@@ -14,13 +14,16 @@ class SearchPlace extends Component {
   getPlace = (e) =>{
     e.preventDefault();
     const place = e.target.elements.place.value;
-    axios.get(`${'https://cors-anywhere.herokuapp.com/'}https://api.yelp.com/v3/businesses/search?location=${place}`, {
+    axios.get(`${'https://cors-anywhere.herokuapp.com/'}https://api.yelp.com/v3/businesses/search`, {
       headers: {
         Authorization: `Bearer ${Api_key}`
+      },
+      params:{
+        location: `${place}`
       }
     })
     .then((res) => {
-    
+    	console.log(res);
       this.setState({
         bizneses: res.data.businesses
       })
