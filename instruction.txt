@@ -1,0 +1,4 @@
+to run :
+-change directory to my-app
+-run: npm start
+

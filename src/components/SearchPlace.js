@@ -5,7 +5,7 @@ import SearchResult from './SearchResult';
 import axios from "axios";
 import './Apps.css'
 
-const Api_key="U3oCzLxcCATz8ZWHnX6GbYw9dfF-7GGY2p1u4ebqgxhDLSPsagKAwXCv_-4CxlbjlYjAg_-iM23Zb51Bztxtd-y_T4h-QjzTpicPn8JR4xl7OrGlH-qYr58DnujsXHYx";
+const Api_key="JAWgHi4x1Bo7rvX4a_BFSQbKB8b-PJesqyJ93_9Mm0BFHYlgfuj1aClsrHQAkXIzeJ6fBcy0pyUxTnKjYhIg18lADNxrIqzQaJ99hROgi0_kcITAUyQwud8Wy770XHYx";
 
 class SearchPlace extends Component {
   state = {
